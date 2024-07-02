@@ -1,0 +1,92 @@
+@media (min-width:430px) and (min-height:932px){
+    #search-space{
+        margin-top: 20px;
+        /* padding: 83px; */
+        max-height: 100%;
+        display: grid;
+        gap:10px;
+        grid-template-columns: repeat(2,38vw);
+        /* grid-template-rows: 32vh; */
+        position: relative;
+        top: 0;
+        left: 16px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    #search-space img{
+        width: 160px;
+        height: 120px;
+        border-radius: 15px;
+        object-fit: cover;
+        border: 0.2px solid black;
+        transition: all 300ms linear;
+    }
+    #search-btn{
+        width: 17vw;
+        height: 6vh;
+        position: relative;
+        left: 243px;
+        top: -56px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 0px 20px 20px 0px;
+        background-color: rgb(73, 96, 96);
+        color: #e5eaf5;
+        font-size: larger;
+        cursor: pointer;
+    }
+    form{
+        /* padding:0vw; */
+        width: 50vw;
+        position: relative;
+        left: 2%;
+    }
+    input{
+        width: 83vw;
+        height: 6vh;
+        border: 1px solid black;
+        border-radius: 20px 0px 0px 20px;
+        position: relative;
+        left: -114px;
+        padding-inline-start: 40px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    label{
+        padding-right: 7vw;
+        position: relative;
+    }
+    .fa {
+        position: relative;
+        left: -101px;
+        top: 42px;
+    }
+    span{
+        padding-left: 10px;
+        font-weight: 600;
+       color: #151515; 
+       width: 100vw;  
+       display: block;
+       position: relative;
+       left: -121px;
+       top: -53px;
+    }
+    h1{
+        font-family: "Poppins", sans-serif;
+        padding-top: 4vh;
+        font-weight: 800;
+        color:rgb(0, 0, 62);
+        text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    }
+    #show-more{
+        /* position: ; */
+        background-color: rgb(7, 71, 62);
+        color: white;
+        padding:5px;
+        border-radius: 10px;
+        display: none;
+        cursor: pointer;
+        transition: all 300ms linear;
+        margin-top: 18px;
+    }
+}
